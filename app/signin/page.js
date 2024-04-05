@@ -1,7 +1,7 @@
 export default function Signin()
 {
     return(
-        <div className="h-screen flex items-center justify-center bg-teal-50">
+        <div className="h-screen flex flex-col items-center justify-center bg-teal-50">
 
             <div className="h-1/2 w-1/4 flex md:bg-white md:shadow-2xl shadow-gray-400 rounded-xl mt-[6%] p-8 min-w-96 flex-col bg-teal-50">
 
@@ -24,7 +24,10 @@ export default function Signin()
                 <button type="submit" className=" bg-green-600 text-white h-[20%] mt-[8%] max-h-14 rounded-full hover:bg-green-800 duration-200">Sign In</button>
                 
                 
+            </div>
 
+            <div className="w-1/4 flex mt-8 flex-nowrap justify-center">
+                <p className="font-medium text-nowrap">New to Easygrantz?</p><a href="signup" className="ml-3 font-semibold text-green-600 hover:text-green-800 hover:underline text-nowrap">Join Now!</a>
             </div>
 
         </div>
